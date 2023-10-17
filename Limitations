@@ -1,0 +1,3 @@
+This model is limited by its training dataset of entity-annotated news articles from a specific span of time.
+This may not generalize well for all use cases in different domains. 
+Furthermore, the model occassionally tags subword tokens as entities and post-processing of results may be necessary to handle those cases.
