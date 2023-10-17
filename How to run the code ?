@@ -1,0 +1,9 @@
+In order to successfully execute the code one need to generate user access token by following the link (https://huggingface.co/settings/tokens) @ Hugging Face
+Make a file with (.env) extension and keep it in the same location as is the code base of the application.
+Save the API key there in the variable named "HF_API_KEY" for this code base.
+Go the models and search for (shleifer/distilbart-cnn-12-6).
+On the right side in the Files options.
+In the app.py code base copy the ENDPOINT URL.
+Save that in the (.env ) file.
+Execute the notebook.
+It may require one to restart the kernal and gives error in the initial few tries as it takes some time to make the API call and collect back the respense from the server.
